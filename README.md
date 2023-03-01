@@ -20,7 +20,7 @@ BASIC REQUIREMENTS:
 
 #JDBC properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/trial23_placenameappdb_yourname
-spring.datasource.username=postgresuser
+spring.datasource.username=yourpostgresuser
 spring.datasource.password=yourpassword
 
 * Additionally, you need to replace the default geonames username with your own username in the app.geonames.url in the application.properties file.
