@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="GenericParenProject" />
+      </profile>
+      <profile name="Annotation profile for PlaceNameJSONService" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.5.3.Final/mapstruct-processor-1.5.3.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.5.3.Final/mapstruct-1.5.3.Final.jar" />
+        </processorPath>
+        <module name="PlaceNameJSONService" />
+        <module name="RepositoryLib" />
+        <module name="ServiceLib" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AnimalHospiatalServiceApp" target="17" />
+      <module name="GenericLib" target="17" />
+      <module name="GenericLib (1)" target="1.5" />
+      <module name="WikiSearchJSONService" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="GenericLib" options="-parameters" />
+      <module name="GenericLib (1)" options="-parameters" />
+      <module name="PlaceNameJSONService" options="-parameters" />
+      <module name="RepositoryLib" options="-parameters" />
+      <module name="ServiceLib" options="-parameters" />
+      <module name="Wiki-PlaceName-Search-Service-App" options="-parameters" />
+      <module name="WikiSearchJSONService" options="-parameters" />
+      <module name="WikiSearchService" options="" />
+    </option>
+  </component>
+</project>
