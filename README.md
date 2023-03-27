@@ -1,4 +1,4 @@
-App Name: Wiki Place Name Search Service App
+WIKI PLACE NAME SEARCH SERVICE APP
 
 Author: Turgut Can Ozdemir
 
