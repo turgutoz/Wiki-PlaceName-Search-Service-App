@@ -9,7 +9,7 @@ import org.mapstruct.Mapping;
 import org.mapstruct.Mappings;
 
 import java.util.List;
-
+//Conversions between classes are done automatically with MapStruct
 @Mapper(implementationName = "PlaceNameMapperImpl", componentModel = "spring")
 public interface IPlaceNameMapper {
     @Mappings({
